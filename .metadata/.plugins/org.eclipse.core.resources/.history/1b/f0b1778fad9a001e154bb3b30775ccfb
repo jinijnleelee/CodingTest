@@ -10,7 +10,6 @@ public class Test1 {
 	   //답  
 	    answer = num1 - num2 ;
 	    return answer;
-	    //되라 
 	   
 	}
 	
