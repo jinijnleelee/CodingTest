@@ -65,7 +65,7 @@ public class Test1 {
 	   
 	    int answer = 0;
 	    
-	    //답
+	    //답 
 	    answer = 2022-(age-1);
 
 	    return answer;
