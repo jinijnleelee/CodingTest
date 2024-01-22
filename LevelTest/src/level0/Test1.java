@@ -134,16 +134,20 @@ public class Test1 {
 		
 		
 		public static  int solution9(int n) {
-	        int answer = 0;
-	        
-	        
-	        for(;n<0;  n=n-2){
-	            
-	        }   
-	           n+=n;
-	          answer+=n;
-	          
-	        return answer;	
+			   int answer = 0;
+		        int sum = 0;
+		        for(; 0<n; n--){
+		          if(n%2==0)
+		              
+		            sum +=n;
+		        
+		            
+		        }   
+		             
+		          answer+=sum;
+		           
+		       
+		        return answer;
 	            
 	       
 	    
